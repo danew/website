@@ -5,7 +5,7 @@
 body {
   height: 100vh;
   display: flex;
-  background-color: white;
+  background-color: #f8f8f8;
   position: relative;
   font-family: 'Roboto', 'Helvetica', sans-serif;
   color: #584B66;
@@ -96,7 +96,7 @@ aside {
 section.background {
   display: none;
   height: 100%;
-  background: white;
+  background: #f8f8f8;
   position: absolute;
   left: 0;
   top: 0;
@@ -114,8 +114,8 @@ section.background {
     nav a {
       margin: 10px 20px;
       &:hover, &:visited:hover {
-        color: white;
-        border-bottom: solid white 2px;
+        color: #f8f8f8;
+        border-bottom: solid #f8f8f8 2px;
       }
     }
   }

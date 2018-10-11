@@ -1,6 +1,6 @@
 *, *::before, *::after { box-sizing: border-box; }
 
-body { height: 100vh; display: flex; background-color: white; position: relative; font-family: 'Roboto', 'Helvetica', sans-serif; color: #584B66; }
+body { height: 100vh; display: flex; background-color: #f8f8f8; position: relative; font-family: 'Roboto', 'Helvetica', sans-serif; color: #584B66; }
 
 header { position: absolute; height: 80px; top: 0; left: 0; width: 100%; padding: 20px; display: flex; justify-content: space-between; align-items: center; flex-direction: row; z-index: 11; }
 
@@ -26,12 +26,12 @@ aside svg { width: 187px; height: 200px; }
 
 .blob svg.scene { position: absolute; height: 50%; top: 25%; }
 
-section.background { display: none; height: 100%; background: white; position: absolute; left: 0; top: 0; content: ''; transition: width 0.3s ease-out; z-index: 5; }
+section.background { display: none; height: 100%; background: #f8f8f8; position: absolute; left: 0; top: 0; content: ''; transition: width 0.3s ease-out; z-index: 5; }
 
 @media (min-width: 560px) { body { background-color: #517DFF; }
   header { padding: 20px 40px; }
   header nav a { margin: 10px 20px; }
-  header nav a:hover, header nav a:visited:hover { color: white; border-bottom: solid white 2px; }
+  header nav a:hover, header nav a:visited:hover { color: #f8f8f8; border-bottom: solid #f8f8f8 2px; }
   section.background, .blob { display: block; }
   aside { display: flex; }
   main { padding: 100px; width: 50%; text-align: left; }
