@@ -7,26 +7,58 @@ body {
   display: flex;
   background: #517DFF;
   position: relative;
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  color: #584B66;
 }
 
-nav {
+header {
   position: absolute;
   height: 80px;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px;
+  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  z-index: 10;
+  z-index: 11;
+
+  .logo {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  nav {
+    display: flex;
+    a {
+      text-decoration: none;
+      margin: 10px 20px;
+      padding-bottom: 5px;
+      border-bottom: solid transparent 2px;
+      &:hover, &:visited:hover {
+        border-bottom: solid white 2px;
+        color: white;
+      }
+      &:visited {
+        color: currentcolor;
+      }
+    }
+  }
 }
 
 main {
   height: 100%;
   width: 50%;
   z-index: 10;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  h1 {
+    font-weight: 500;
+    font-size: 4rem;
+  }
 }
 
 aside {
@@ -38,6 +70,13 @@ aside {
   z-index: 10;
 }
 
+.scene {
+  position: absolute;
+  right: 0;
+  top: 25%;
+  z-index: -10;
+}
+
 section.background {
   height: 100%;
   background: white;
@@ -46,4 +85,5 @@ section.background {
   top: 0;
   content: '';
   transition: width 0.3s ease-out;
+  z-index: 5;
 }

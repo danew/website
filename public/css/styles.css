@@ -1,12 +1,26 @@
 *, *::before, *::after { box-sizing: border-box; }
 
-body { height: 100vh; display: flex; background: #517DFF; position: relative; }
+body { height: 100vh; display: flex; background: #517DFF; position: relative; font-family: 'Roboto', 'Helvetica', sans-serif; color: #584B66; }
 
-nav { position: absolute; height: 80px; top: 0; left: 0; width: 100%; padding: 20px; display: flex; justify-content: space-between; align-items: center; flex-direction: row; z-index: 10; }
+header { position: absolute; height: 80px; top: 0; left: 0; width: 100%; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; flex-direction: row; z-index: 11; }
 
-main { height: 100%; width: 50%; z-index: 10; }
+header .logo { font-weight: 500; font-size: 1.5rem; }
+
+header nav { display: flex; }
+
+header nav a { text-decoration: none; margin: 10px 20px; padding-bottom: 5px; border-bottom: solid transparent 2px; }
+
+header nav a:hover, header nav a:visited:hover { border-bottom: solid white 2px; color: white; }
+
+header nav a:visited { color: currentcolor; }
+
+main { height: 100%; width: 50%; z-index: 10; padding: 100px; display: flex; justify-content: center; align-items: center; }
+
+main h1 { font-weight: 500; font-size: 4rem; }
 
 aside { height: 100%; width: 50%; display: flex; justify-content: center; align-items: center; z-index: 10; }
 
-section.background { height: 100%; background: white; position: absolute; left: 0; top: 0; content: ''; transition: width 0.3s ease-out; }
+.scene { position: absolute; right: 0; top: 25%; z-index: -10; }
+
+section.background { height: 100%; background: white; position: absolute; left: 0; top: 0; content: ''; transition: width 0.3s ease-out; z-index: 5; }
 /*# sourceMappingURL=styles.css.map */

@@ -32,6 +32,13 @@
 		"oS": 2,
 		"uL": 1
 		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/favicon.ico",
+		"oF": 0
+		},
 	"/index.html": {
 		"cB": 1,
 		"ft": 8192,
@@ -48,6 +55,16 @@
 		"oF": 2,
 		"sC": 0,
 		"tS": 0
+		},
+	"/js/morph.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/public/js/morph.js",
+		"oF": 2,
+		"sC": 0,
+		"tS": 1
 		},
 	"/package.json": {
 		"ft": 524288,
@@ -91,6 +108,16 @@
 		"oAP": "/public/index.html",
 		"oF": 0
 		},
+	"/public/js/anime.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "/public/js/anime.js",
+		"oF": 2,
+		"sC": 0,
+		"tS": 0
+		},
 	"/public/js/main.js": {
 		"ft": 64,
 		"ma": 0,
@@ -107,6 +134,16 @@
 		"oA": 0,
 		"oAP": "/public/js/main.js.map",
 		"oF": 0
+		},
+	"/public/js/morph.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/public/js/morph-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		}
 	},
 "hooks": [
@@ -2398,7 +2435,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$,exports,require",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "/public"
 	},
 "settingsFileVersion": "3"
 }
