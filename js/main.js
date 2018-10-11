@@ -35,5 +35,6 @@
   document.addEventListener('DOMContentLoaded', function () {
     init();
     background();
+    console.log("Hi, if you're reading this, you can view the source on my github:\nhttps://github.com/danew/website")
   });
 }

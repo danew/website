@@ -5,7 +5,7 @@
 body {
   height: 100vh;
   display: flex;
-  background: #517DFF;
+  background-color: white;
   position: relative;
   font-family: 'Roboto', 'Helvetica', sans-serif;
   color: #584B66;
@@ -17,7 +17,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 40px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,15 +31,17 @@ header {
 
   nav {
     display: flex;
+    align-items: center;
     a {
       text-decoration: none;
-      margin: 10px 20px;
-      padding-bottom: 5px;
+      margin: 10px;
+      padding: 7px 0 5px;
       border-bottom: solid transparent 2px;
       color: currentcolor;
+      line-height: 1;
       &:hover, &:visited:hover {
-        border-bottom: solid white 2px;
-        color: white;
+        border-bottom: solid currentcolor 2px;
+        color: currentcolor;
       }
       &:visited {
         color: currentcolor;
@@ -50,28 +52,34 @@ header {
 
 main {
   height: 100%;
-  width: 50%;
+  width: 100%;
   z-index: 10;
-  padding: 100px;
+  padding: 40px;
   display: flex;
   justify-content: center;
   align-items: center; 
+  text-align: center;
   h1 {
     font-weight: 500;
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
 aside {
   height: 100%;
   width: 50%;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   z-index: 10;
+  svg {
+    width: 187px;
+    height: 200px;
+  }
 }
 
 .blob {
+  display: none;
   position: absolute;
   z-index: -10;
   height: 100%;
@@ -86,6 +94,7 @@ aside {
 }
 
 section.background {
+  display: none;
   height: 100%;
   background: white;
   position: absolute;
@@ -94,4 +103,48 @@ section.background {
   content: '';
   transition: width 0.3s ease-out;
   z-index: 5;
+}
+
+@media (min-width: 560px) {
+  body {
+    background-color: #517DFF;
+  }
+  header {
+    padding: 20px 40px;
+    nav a {
+      margin: 10px 20px;
+      &:hover, &:visited:hover {
+        color: white;
+        border-bottom: solid white 2px;
+      }
+    }
+  }
+  section.background, .blob {
+    display: block;
+  }
+  aside {
+    display: flex;
+  }
+  main {
+    padding: 100px;
+    width: 50%;
+    text-align: left;
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  aside svg {
+    width: 187px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1300px) {
+  main h1 {
+    font-size: 4rem;
+  }
+  aside svg {
+    width: 280px;
+    height: 300px;
+  }
 }
