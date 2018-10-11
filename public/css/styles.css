@@ -8,7 +8,7 @@ header .logo { font-weight: 500; font-size: 1.5rem; }
 
 header nav { display: flex; }
 
-header nav a { text-decoration: none; margin: 10px 20px; padding-bottom: 5px; border-bottom: solid transparent 2px; }
+header nav a { text-decoration: none; margin: 10px 20px; padding-bottom: 5px; border-bottom: solid transparent 2px; color: currentcolor; }
 
 header nav a:hover, header nav a:visited:hover { border-bottom: solid white 2px; color: white; }
 
@@ -20,7 +20,9 @@ main h1 { font-weight: 500; font-size: 4rem; }
 
 aside { height: 100%; width: 50%; display: flex; justify-content: center; align-items: center; z-index: 10; }
 
-.scene { position: absolute; right: 0; top: 25%; z-index: -10; }
+.blob { position: absolute; z-index: -10; height: 100%; width: 60%; right: 0; overflow: hidden; }
+
+.blob svg.scene { position: absolute; height: 50%; top: 25%; }
 
 section.background { height: 100%; background: white; position: absolute; left: 0; top: 0; content: ''; transition: width 0.3s ease-out; z-index: 5; }
 /*# sourceMappingURL=styles.css.map */
