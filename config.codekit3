@@ -33,11 +33,11 @@
 		"uL": 1
 		},
 	"/favicon.ico": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/favicon.ico",
-		"oF": 0
+		"oAP": "/public/favicon.ico",
+		"oF": 2
 		},
 	"/index.html": {
 		"cB": 1,
