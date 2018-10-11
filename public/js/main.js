@@ -1,0 +1,2 @@
+var DOM={};function init(){DOM.body=document.body,DOM.background=document.querySelector(".background"),DOM.width=window.screen.width,background()}function background(){DOM.body.addEventListener("mousemove",throttle(function(t){var n=DOM.width/2,e,o=((n-(n-t.screenX)/20)/DOM.width*100).toFixed(2)+"%";DOM.background.style.width=o}),100)}function throttle(e,o){var d;return function(){var t=arguments,n=this;d||(e.apply(n,t),d=!0,setTimeout(function(){d=!1},o))}}document.addEventListener("DOMContentLoaded",init);
+//# sourceMappingURL=main.js.map
