@@ -15,5 +15,8 @@
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.1",
     "run-sequence": "^2.2.1"
+  },
+  "scripts": {
+    "build": "gulp"
   }
 }
