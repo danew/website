@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/daneo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://danewilson.me
+  * I am daneo (https://keybase.io/daneo) on keybase.
+  * I have a public key ASC6RwUPLj5P_pfryR8ICERPYphcG9ZPRbpn9-CXVbOy8wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208a5684fdab4aaadffc41e646cc89eb70d2dc314bacadd1d5433c5164024eda0f0a",
+      "host": "keybase.io",
+      "kid": "0120ba47050f2e3e4ffe97ebc91f0808444f62985c1bd64f45ba67f7e09755b3b2f30a",
+      "uid": "d7198e87ef115a338bbb0867ece7d819",
+      "username": "daneo"
+    },
+    "merkle_root": {
+      "ctime": 1604675237,
+      "hash": "34b8b5c3729505591afec339b82918273cba7bd97efd45126b0d74320f8299c09537e45889042a6fbeb4309cb764c5bfb6430bedbdaa79abcab85f9b9b28c7a2",
+      "hash_meta": "3b14d31a44984b41771dc416527dd6101263420814770ba96ce53bb182894329",
+      "seqno": 18039563
+    },
+    "service": {
+      "entropy": "TJQFMUpkOnyFreQhAByEH/Em",
+      "hostname": "danewilson.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1604675254,
+  "expire_in": 504576000,
+  "prev": "9fcd1eef1f2c32c346a910853006e4d760845fedb64b5d5f28aec3e1f7b6b53a",
+  "seqno": 21,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgukcFDy4+T/6X68kfCAhET2KYXBvWT0W6Z/fgl1WzsvMKp3BheWxvYWTESpcCFcQgn80e7x8sMsNGqRCFMAbk12CEX+22S11fKK7D4fe2tTrEIMk78whmLANV3abiSJYBw2CoxT3aUIDOVYe3xQP3xsCDAgHCo3NpZ8RA/blSLuMVRLvref6AEtPffdNUUyFY7Snlh9JarMNniZsn7gRLFMYbIpUVcRIDv0mdiC3OE21hRqGalTs2oz6KDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIH4WFOZocjRDCUqc7TcUr8pFIba4ud9LU/Iqm6DXvEQJo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/daneo
+
+==================================================================
