@@ -1,3 +1,5 @@
+import anime from 'animejs/lib/anime.es.js';
+
 {
 	function lineEq(y2, y1, x2, x1, val) {
 		const m = (y2 - y1) / (x2 - x1);
@@ -54,11 +56,12 @@
 			this.initEvents();
 		}
 		animate() {
-			anime.remove(this.DOM.pathEl);
+			// anime.remove(this.DOM.pathEl);
 			anime({
 				targets: this.DOM.pathEl,
 				duration: 10000,
-				easing: [0.5,0,0.5,1],
+				easing: 'cubicBezier(.5, 0, 0.5, 1)',
+				// easing: [0.5,0,0.5,1],
 				d: this.paths,
 				loop: true
 			});

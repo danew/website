@@ -6,5 +6,5 @@ It is currently hosted with [Netlify](https://www.netlify.com/).
 Run `yarn` or `npm install`
 
 ## Build
-To compile the transpile the website to the public directory run:   
+To compile the transpile the website to the dist directory run:   
 `yarn build` or `npm run build`

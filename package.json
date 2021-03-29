@@ -5,18 +5,20 @@
   "main": "index.html",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "del": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^6.0.0",
-    "gulp-babel": "^8.0.0",
-    "gulp-cache-bust": "^1.4.0",
-    "gulp-csso": "^3.0.1",
-    "gulp-sass": "^4.0.1",
-    "gulp-uglify": "^3.0.1",
-    "run-sequence": "^2.2.1"
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.32.8"
   },
   "scripts": {
-    "build": "gulp"
+    "build": "parcel build index.html",
+    "start": "parcel index.html"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not ie 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "normalize.css": "^8.0.1"
   }
 }
